@@ -41,6 +41,7 @@ input {
     color: white;
     font-size: 14px;
     background-color: rgba(211, 211, 211, 0.294);
+    border: 1px solid grey;
 }
 
 .login {
@@ -66,8 +67,8 @@ input {
 }
 
 .create {
-    background-color: rgb(64, 228, 24);
-    width: 35%;
+    background-color: rgb(57, 155, 33);
+    width: 28%;
     display: block;
     margin: 0 auto;
     font-weight: 700;
@@ -96,6 +97,17 @@ ul {
     margin: 0 auto;
 }
 
-.links li {
-    display: flex;
+.links ul li a{
+    color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 auto;
+}
+nav ul li a {
+    color: lightgrey;
+    font-size: 12px;
 }
