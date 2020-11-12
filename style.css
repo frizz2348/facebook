@@ -16,7 +16,7 @@
     padding-left: 14px;
     margin: 12px 0 0;
     color: rgb(117, 189, 248);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 span img {
@@ -73,7 +73,7 @@ input {
 
 .create {
     background-color: rgb(57, 155, 33);
-    width: 32%;
+    width: 35%;
     display: block;
     margin: 0 auto;
     font-weight: 700;
